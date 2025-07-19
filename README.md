@@ -40,7 +40,7 @@ void solve()
 
 int main()
 {
-  fastio
+	fastio
 	
 	int t=1;
 	//cin>>t;
