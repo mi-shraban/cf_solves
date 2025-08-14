@@ -11,7 +11,9 @@ def print_fast(x):
 
 def solve():
     n = int(input())
-
+    if n < 4:
+        return n
+    return 2
 
 
 for _ in range(int(input())):
