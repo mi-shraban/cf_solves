@@ -12,11 +12,11 @@ def print_fast(x):
 
 def solve():
     n = int(input())
-    p = [int(x) for x in input().split()]
+    p = [0] + [int(x) for x in input().split()]
 
     ans = 0
-    for i in range(n):
-        ans = math.gcd(ans, abs(p[i] - (i+1)))
+    for i in range(1, n+1):
+        ans = math.gcd(ans, abs(p[i] - i))
     return ans
 
 
