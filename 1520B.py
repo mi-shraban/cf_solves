@@ -19,10 +19,9 @@ def solve():
     while tmp > 0:          # 1 >= tmp >= 10**9 so time complexity O(1)
         tmp //= 10
         cnt += 1
-
     ans = 9 * cnt
-    div = 10**cnt
 
+    div = 10**cnt
     while cnt > 0:          # 1 >= cnt >= 9 so time complexity O(1)
         cnt -= 1
         div += 10**cnt
