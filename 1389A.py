@@ -13,7 +13,6 @@ def solve():
     l, r = [int(x) for x in input().split()]
     if 2*l > r:
         return f"-1 -1"
-
     r -= r % l
     return f"{l} {r}"
 
