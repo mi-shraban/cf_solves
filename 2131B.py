@@ -11,9 +11,15 @@ def print_fast(x):
 
 def solve():
     n = int(input())
-    a = [2] * n
-    for i in range(1, n, 2):
-        a[i] = -1
+    if n == 1:
+        return [0]
+
+    a = [-1, 3] * (n//2)
+
+    if n % 2:
+        a.append(-1)
+    else:
+        a[-1] = 2
 
     print(*a)
 
