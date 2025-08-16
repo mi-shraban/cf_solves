@@ -16,7 +16,7 @@ def solve():
 
     a = [-1, 3] * (n//2)
 
-    if n % 2:
+    if n & 1:
         a.append(-1)
     else:
         a[-1] = 2
