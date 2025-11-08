@@ -1,6 +1,7 @@
 Here are all my accepted submissions from 2021 till now.
 
-## Check out this [CF_cli_tool](https://github.com/mi-shraban/CF_cli_tool) i built ##
+## Check out this [CF_cli_tool](https://github.com/mi-shraban/CF_cli_tool) ##
+I built it to keep my codeforces submissions and solutions organized on my both machine and github repo.
 
 ## Python Template ##
 ```py
