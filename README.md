@@ -1,5 +1,6 @@
 Here are all my accepted submissions from 2021 till now.
-For ease of use with fastIO, I have prepared two templates. One with C++ another with Python
+
+## Check out this [CF_cli_tool] i built(https://github.com/mi-shraban/CF_cli_tool)##
 
 ## Python Template ##
 ```
