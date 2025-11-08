@@ -1,9 +1,9 @@
 Here are all my accepted submissions from 2021 till now.
 
-## Check out this [CF_cli_tool](https://github.com/mi-shraban/CF_cli_tool) i built##
+## Check out this [CF_cli_tool](https://github.com/mi-shraban/CF_cli_tool) i built ##
 
 ## Python Template ##
-```
+```py
 import sys
 
 
@@ -24,7 +24,7 @@ for _ in range(int(input())):
 ```
 
 ## C++ Template ##
-```
+```cpp
 #include<bits/stdc++.h>
 
 #define intld long double
