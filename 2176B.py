@@ -10,12 +10,11 @@ def print_fast(x):
 
 
 def solve():
-    n = int(input()) * 2
+    n = int(input())
     s = input()
-    s += s      # make it kind of cyclic
     curr, res = 0, 0
-    for i in range(n):
-        if s[i] == '1':
+    for i in range(n*2):
+        if s[i % n] == '1':
             curr = 0
         else:
             curr += 1
