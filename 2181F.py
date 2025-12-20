@@ -12,14 +12,8 @@ def print_fast(x):
 def solve():
     n = int(input())
     a = list(map(int, input().split()))
-    moves = 0
-    mx = 0
-    for x in a:
-        if x == 1:
-            moves += 1
-        if x > mx:
-            mx = x
-    if mx > 1:
+    moves = a.count(1)
+    if max(a) > 1:
         moves += 1
     return "Alice" if moves % 2 == 1 else "Bob"
 
