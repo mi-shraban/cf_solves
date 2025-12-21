@@ -24,3 +24,5 @@ def solve():
 
 for _ in range(int(input())):
     print_fast(solve())
+
+# testing with it ;-;
