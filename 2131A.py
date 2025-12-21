@@ -13,7 +13,7 @@ def solve():
     n = int(input())
     a = [int(x) for x in input().split()]
     b = [int(x) for x in input().split()]
-
+    
     ans = 1
 
     for i in range(n):
