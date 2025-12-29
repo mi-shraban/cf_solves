@@ -1,5 +1,5 @@
 import sys
-import math
+from math import gcd
 
 
 def input():
@@ -13,16 +13,19 @@ def print_fast(x):
 def solve():
     w, h, d = map(int, input().split())
     n = int(input())
-    wc = math.gcd(w, n)
-    nw = n // wc
-    print(nw)
-    hc = math.gcd(h, n)
-    nh = nw // hc
-    print(nh)
-    dc = math.gcd(d, n)
-    nd = nh //dc
-    print(dc)
+    
+    wp = gcd(n, w)
+    nw = n // wp
 
+    hp = gcd(nw, h)
+    nh = nw // hp
+
+    dp = gcd(nh, d)
+    nd = nh // dp
+
+    if nd != 1:
+        return "-1"
+    return f"{wp -1} {hp -1} {dp -1}"
 
 
 print_fast(solve())
