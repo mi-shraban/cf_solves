@@ -31,13 +31,15 @@ def solve():
         for j in range(n-1, -1, -1):
             mx = max(mx, lookup(grid, i, j, n))
     return mx
-    
+    # O(n^2) but max n is 100. So, meh! 10000!! 
+    # Which also never happens cause checking from back for max sum in a sorted grid.
+
 
 for _ in range(int(input())):
     print_fast(solve())
 
 
-# math solution
+# math solution O(1)
 # ans = 1
 # if n == 2:
 #     ans = 9
